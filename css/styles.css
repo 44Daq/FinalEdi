@@ -11263,3 +11263,7 @@ header ul li a
  {
     align-items: center;
  }
+ #btn.carrera a:hover
+ {
+  color: white;
+ }
