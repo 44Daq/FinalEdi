@@ -191,3 +191,8 @@ header ul li a
     padding: 10px;
     
  } */
+ #program
+ {
+    /* background: url("/assets/img/program.jpg"); */
+    background: url('/assets/img/program.jpg') no-repeat;
+ }
