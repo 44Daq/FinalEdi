@@ -196,3 +196,7 @@ header ul li a
     /* background: url("/assets/img/program.jpg"); */
     background: url('/assets/img/program.jpg') no-repeat;
  }
+ #administracion li
+ {
+    text-align: justify;
+ }
