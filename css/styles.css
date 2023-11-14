@@ -378,13 +378,13 @@ select:disabled {
 [list]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=week]):not([type=time])::-webkit-calendar-picker-indicator {
   display: none !important;
 }
-/* modifiqueyo */
-/* button,
+
+ button,
 [type=button],
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
-} */
+} 
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -438,12 +438,12 @@ legend + * {
 ::-webkit-inner-spin-button {
   height: auto;
 }
-/* modifiqueyo */
+
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-/* [type=search] {
+ [type=search] {
   outline-offset: -2px;
   -webkit-appearance: textfield;
-} */
+} 
 
 /* rtl:raw:
 [type="tel"],
@@ -462,10 +462,10 @@ legend + * {
 }
 /* modifiqueyo */
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-/* ::file-selector-button {
+::file-selector-button {
   font: inherit;
   -webkit-appearance: button;
-} */
+}
 
 output {
   display: inline-block;
@@ -10920,12 +10920,12 @@ html {
 
 .sidebar-nav > .sidebar-brand {
   font-size: 1.2rem;
-  
+
   background-color: #3dd5f3;
   background: rgba(22, 199, 16, 0.1);
 
 /*  */
-  
+
   height: 80px;
   line-height: 50px;
   padding-top: 15px;
@@ -11125,7 +11125,7 @@ footer.footer .social-link:hover {
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
-.sec 
+.sec
 {
     position: relative;
     width: 100%;
@@ -11135,8 +11135,9 @@ footer.footer .social-link:hover {
     /* justify-content: space-between; */
     align-items: center;
     background: #5c544e;
-  
+
 }
+
 header
 {
     position: absolute;
@@ -11172,16 +11173,16 @@ header ul li a
   /* margin-right: 30px; */
   text-decoration: none;
     text-align: right;
-} 
+}
 .sec a:hover
 {
     color:#fff ;
-  
+
 }
 .sec li a:hover
 {
     color:  #0dcaf0;
-  
+
 }
 /* .content  h2
 {
@@ -11192,7 +11193,7 @@ header ul li a
     display: flex;
     justify-content: space-between;
     text-align: center;
-   
+
 } */
 .content h3
 {
@@ -11201,7 +11202,7 @@ header ul li a
     margin-top: 1%;
 
 }
-.content .textBox 
+.content .textBox
 {
     position: relative;
     max-width: 500px;
@@ -11257,7 +11258,7 @@ header ul li a
  {
     background-color: #097d94;
  }
- .sec img  .logo 
+ .sec img  .logo
  {
     align-items: center;
  }
