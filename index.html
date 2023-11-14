@@ -20,11 +20,14 @@
         <!--  -->
     </head>
 
-    <body id="page-top">
-        <body>
-            <!-- <section class="content-section" id="portfolio"></section> -->
-            <section class="sec">
-                <header >
+    <body id="page-top">   
+    <a class="menu-toggle"></a>
+     
+      
+            <!-- <section class="content-section" id="portfolio"> -->
+            
+            <header>
+                <nav>
                     <!-- <a href="#"><img src="/pepsi/imagenes/logo.png" class="logo"></a> -->
                     <ul>
                         <li ><a href="/login.html">Ingresar</a></li>
@@ -37,46 +40,50 @@
                         <li ><a href="#mensaje">Contacto</a></li>
                         <li ><a href="#mapa">Ubicación</a></li>
 
-                        </ul>
-                </header>
-       
+                    </ul>
+                </nav>
+            </header>
+        
+              
+            <!-- </section>     -->
+            <div class="sec">
+                <div class="container px-4 px-lg-5 text-center">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="content-section-heading text-center"> 
+                            <div class="content container px-4 px-lg-4 text-center" >
 
-                 <a class="menu-toggle"></a>
-
-               
-     
-     
-
-            <div class="content-section " id="bienvenidos">
-                             <div class="container px-4 px-lg-5 text-center">
-                                <div class="row gx-4 gx-lg-5 justify-content-center">
-                                   <div class="content-section-heading text-center"> 
-
-            <div class="content container px-4 px-lg-4 text-center" >
-
-                         <img src="assets/93.png" class="logo" style="width: 30%;" >
-                        <div class="row gx-4 gx-lg-4 justify-content-center">
+                         <img src="assets/93.png" class="logo" style="width: 40%;" >
+                        <!-- <div class="row gx-4 gx-lg-4 justify-content-center"> -->
                         <!-- <div class="col-lg-10"> -->
 
 
-                  <h3>Instituto Superior de Formación Técnica N° 93<br>
-                     "Presidente Arturo Umberto Illia"</h3>
+                         <h1> Instituto Superior de Formación Técnica N° 93<br>
+                         "Presidente Arturo Umberto Illia"</h1>
 
-                    <p>En junio de 1993 se creó el INSTITUTO SUPERIOR DE FORMACIÓN DOCENTE Y TÉCNICA N° 93, una de las
-                    instituciones más emblemáticas de San Vicente.<br>
+                          <p>En junio de 1993 se creó el INSTITUTO SUPERIOR DE FORMACIÓN DOCENTE Y TÉCNICA N° 93, una de las
+                         instituciones más emblemáticas de San Vicente.<br>
 
-                        Su trayectoria académica comenzó con dos carreras: Tecnicatura Superior en Análisis de Sistemas y Tecnicatura Superior en Administración Contable-
-                        las cuales durante su primer año de vida se dictaron en el edificio de la escuela Secundaria N° 2 hasta que poco después se trasladó definitivamente
-                        al edificio de la Escuela Primaria N° 1 en la Calle SAN MARTÍN 101 – San Vicente – donde desde hace 30 años abre sus puertas diariamente
-                        con el firme objetivo de formar “a los mejores Técnicos de la Provincia de Buenos Aires”..</p>
+                         Su trayectoria académica comenzó con dos carreras: Tecnicatura Superior en Análisis de Sistemas y Tecnicatura Superior en Administración Contable-
+                          las cuales durante su primer año de vida se dictaron en el edificio de la escuela Secundaria N° 2 hasta que poco después se trasladó definitivamente
+                          al edificio de la Escuela Primaria N° 1 en la Calle SAN MARTÍN 101 – San Vicente – donde desde hace 30 años abre sus puertas diariamente
+                         con el firme objetivo de formar “a los mejores Técnicos de la Provincia de Buenos Aires”..</p>
+                        
+                         <a class="btn btn-primary btn-xl" href="carreras.html" id="botonMas" >Conocer Más</a>
+                        
 
-                 <div class="more"><a href="instituto.html">Conocer más</a></div>
+                            
+                         </div>
+                    </div>
                 </div>
             </div>
- 
-        </section>
+        </div>
+    </div>
+        
+  
 
-     </section>
+        
+
+</section>
 
         <section class="content-section bg-light" id="bienvenidos">
             <div class="container px-4 px-lg-5 text-center">
@@ -223,11 +230,11 @@
                      <input type="number"  name="telefono" style="width:44vh; height:5vh"placeholder="Telefono" required>
                      </div>
                      <br>
-                     <textarea  name="tema" style="width:55%; height:20%" id="coment" required="">Dejanos tu consulta</textarea>
+                     <textarea  name="tema" style="width:55%; height:40%" id="coment" required="">Dejanos tu consulta</textarea>
 
 
                  <div >
-                    <div  class="btn btn-primary btn-lg" id="botonEnviar" oncl>Enviar</button>
+                    <div  class="btn btn-xs" id="botonEnviar" onclick="enviarConsulta()">Enviar</button>
                   
                    </div>
                
