@@ -11267,3 +11267,27 @@ header ul li a
  {
   color: white;
  }
+
+ /* instituto */
+ /* carrusel */
+.carousel-slide-item
+{
+ width: 100%;
+ transition-duration: .2s;
+
+    padding: 2.5rem;
+    /* space: .5rem; */
+}
+#propuesta
+{
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+#datos
+{
+  margin-top: 10%;
+}
+.caption #program
+{
+  background-image: url('https://isfdyt93-bue.infd.edu.ar/sitio/tecnicatura-superior-en-analisis-desarrollo-y-programacion-de-aplicaciones/');
+}
