@@ -378,13 +378,13 @@ select:disabled {
 [list]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=week]):not([type=time])::-webkit-calendar-picker-indicator {
   display: none !important;
 }
-
-button,
+/* modifiqueyo */
+/* button,
 [type=button],
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
-}
+} */
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -438,11 +438,12 @@ legend + * {
 ::-webkit-inner-spin-button {
   height: auto;
 }
-
-[type=search] {
+/* modifiqueyo */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* [type=search] {
   outline-offset: -2px;
   -webkit-appearance: textfield;
-}
+} */
 
 /* rtl:raw:
 [type="tel"],
@@ -459,11 +460,12 @@ legend + * {
 ::-webkit-color-swatch-wrapper {
   padding: 0;
 }
-
-::file-selector-button {
+/* modifiqueyo */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ::file-selector-button {
   font: inherit;
   -webkit-appearance: button;
-}
+} */
 
 output {
   display: inline-block;
@@ -3251,9 +3253,7 @@ textarea.form-control-lg {
   color: var(--bs-dropdown-color);
   text-align: left;
   list-style: none;
-
   background-color: var(--bs-dropdown-bg);
-
   background-clip: padding-box;
   border: var(--bs-dropdown-border-width) solid var(--bs-dropdown-border-color);
   border-radius: var(--bs-dropdown-border-radius);
@@ -4369,10 +4369,8 @@ textarea.form-control-lg {
   width: 100%;
   padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
   font-size: 1rem;
-
   color: var(--bs-accordion-btn-color);
   text-align: left;
-
   background-color: var(--bs-accordion-btn-bg);
   border: 0;
   border-radius: 0;
