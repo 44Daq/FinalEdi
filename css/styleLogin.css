@@ -16,7 +16,7 @@ body {
 
 .box {
   width: 450px;
-  background: transparent; /* FONDO TRANSPARENTE */
+ /* background: transparent;  FONDO TRANSPARENTE */
   border: 2px solid rgba(255, 255, 255, .2); /* BORDE CLARO SEMITRANSPARENTE */
   backdrop-filter: blur(20px); /* FONDO CON EFECTO DESENFOQUE */
   box-shadow: 0 0 10px rgba(0, 0, 0, .2); /* SOMBRA OSCURA SEMITRANSPARENTE */
