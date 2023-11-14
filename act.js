@@ -17,23 +17,23 @@ function comprobarClave() {
         
     )   
 
-    function consulta() {
-      enviar= document.getElementById('botonEnviar');
+  //   function consulta() {
+  //     enviar= document.getElementById('botonEnviar');
       
   
-  }
-    const BOTON_ENVIAR=document.getElementById("botonEnviar");
+  // }
+  //   const BOTON_ENVIAR=document.getElementById("botonEnviar");
 
-    BOTON_ENVIAR.addEventListener("click",() => {
-    {
-      // if("")
-       {
+  //   BOTON_ENVIAR.addEventListener("click",() => {
+  //   {
+  //      if("")
+  //      {
 
-        alert("Recibimos tu consulta, gracias!");
-      } 
-    }
-  }
-    )   
+  //       alert("Recibimos tu consulta, gracias!");
+  //     } 
+  //   }
+  // }
+  //   )   
 
 
    
