@@ -11141,32 +11141,32 @@ footer.footer .social-link:hover {
 
 header
 {
-    position: relative;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    display: inline-block;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #5c544e;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5c544e;
 }
 
 
 header ul li
 {   
   align-items: center;
-    display: inline;
-    list-style: none;
+  display: inline;
+  list-style: none;
 } 
 header ul li a
 {
   display:inline-block;
   color: #fff; 
-  font-weight: 200;
+  font-weight: 800;
   margin: 10px ;
-  /* margin-right: 30px; */
+  margin-right: 5%;
   text-decoration: none;
-    text-align: center;
+  text-align: center;
     
 }
 header a:hover
@@ -11175,13 +11175,17 @@ header a:hover
 }
 .sec a:hover
 {
-    color:#fff ;
+  color:#fff ;
 
 }
 .sec li a:hover
 {
-    color:  #0dcaf0;
+  color:  #0dcaf0;
 
+}
+.sec h1
+{
+  font-weight: 900;
 }
 /* .content  h2
 {
@@ -11223,7 +11227,7 @@ header a:hover
  .content  p
 {
     color: #fff;
-    font-size: small;
+    font-size: medium;
     text-align: justify;
     padding: 20px 30px ;
     margin-top: 10%;
@@ -11245,8 +11249,8 @@ header a:hover
  .logo
  {
     filter: invert(1);
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 100%;
+    max-height: 100%;
 
  }
  #more
