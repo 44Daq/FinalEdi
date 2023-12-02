@@ -34,7 +34,7 @@
                         <li ><a href="registro.html">Registrarse</a></li>
 
                         <li ><a href="inscripcionCarrera.html">Inscribirse a Carrera</a></li>
-                        <li ><a href="inscripcionMateria.html">Inscribirse a Materias</a></li>
+                        <li ><a href="#portfolio">Inscribirse a Materias</a></li>
                         <li ><a href="#portfolio">Oferta Académica</a></li>
 
                         <li ><a href="#mensaje">Contacto</a></li>
@@ -68,7 +68,7 @@
                           al edificio de la Escuela Primaria N° 1 en la Calle SAN MARTÍN 101 – San Vicente – donde desde hace 30 años abre sus puertas diariamente
                          con el firme objetivo de formar “a los mejores Técnicos de la Provincia de Buenos Aires”..</p>
                         
-                         <a class="btn btn-primary btn-xl" href="instituto.html" id="botonMas" >Conocer Más</a>
+                         <a class="btn btn-primary btn-xl" href="carreras.html" id="botonMas" >Conocer Más</a>
                         
 
                             
@@ -93,8 +93,8 @@
                         <h2 class="mb-5">ISFT N° 93</h2>
                          <h2>Bienvenidos!</h2>
 
-                        <a class="btn btn-primary btn-xl" href="login.html">Ingresar</a>
-                        <a class="btn btn-primary btn-xl" href="registro.html">Registrarse</a>
+                        <a class="btn btn-primary btn-xl" id="btnBienvenidos" href="login.html">Ingresar</a>
+                        <a class="btn btn-primary btn-xl"id="btnBienvenidos" href="registro.html">Registrarse</a>
                         <!-- <a class="btn btn-dark btn-xl" href="#services">ver más datos</a> -->
                     </div>
                 </div>
@@ -195,7 +195,7 @@
                             <img class="img-fluid" src="assets/img/administracion.jpg" alt="..." />
                         </a>
                     </div>
-                    <a class="btn btn-primary btn-xl" href="carreras.html">Más Info!</a>
+                    <a class="btn btn-primary btn-xl" id="btnMasinfo" href="carreras.html">Más Info!</a>
                 </div>
             </div>
         </section>
@@ -221,17 +221,16 @@
                  <p>Completá tus datos y dejanos tu consulta</p >
                     <div class="requeridos">
                         <div>
-                     
-                         <input type="text" name="nombre" style="width:30%; height:5%"  placeholder=" Nombre" required>
-                         <input type="text"  name="apellido" style="width:30%; height:5%" placeholder="Apellido" required>
+                         <input type="text" name="nombre" style="width:44vh; height:5vh"  placeholder=" Nombre" required>
+                         <input type="text"  name="apellido" style="width:44vh; height:5vh" placeholder="Apellido" required>
                         </div> <br>
                      <div>
 
-                     <input type="email" name="email" style="width:30%; height:5%" placeholder="Email" required>
-                     <input type="number"  name="telefono" style="width:30%; height:5%"placeholder="Telefono" required>
+                     <input type="email" name="email" style="width:44vh; height:5vh" placeholder="Email" required>
+                     <input type="number"  name="telefono" style="width:44vh; height:5vh"placeholder="Telefono" required>
                      </div>
                      <br>
-                     <textarea  name="tema" style="width:60%; height:60%" id="coment"  placeholder="Dejanos tu consulta" required></textarea>
+                     <textarea  name="tema" style="width:55%; height:40%" id="coment"  placeholder="Dejanos tu consulta" required></textarea>
 
                  <div>
                     <button  class="btn btn-xs" id="botonEnviar"  value=" Envia consulta" onclick="enviarConsulta()">Enviar</button>
