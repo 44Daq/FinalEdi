@@ -130,7 +130,7 @@ body {
 }
 #page-top
 {
-   background: url('../FinalEdi//assets/insti2.png') no-repeat;
+   background: url('/FinalEdi//assets/insti2.png') no-repeat;
    background-size: cover; /* IMAGEN ADAPTADO AL CONTENEDOR */
    background-position: center; /* POSICION CENTRADA DE LA IMAGEN DENTRO DEL IMG */
 }
