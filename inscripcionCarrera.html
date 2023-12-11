@@ -232,6 +232,7 @@
                                        <!-- Name input-->
                                        <label class="d-block mb-3">Titulo Secundario</label>
                                        <div class="d-inline mb-3">
+                                        
                                             <input class="form" name="TituloSecundario" id="TituloSecundarioSI" type="radio" value="1" />
                                             <label for="TituloSecundarioSI">SI</label>
                                         </div>
@@ -252,35 +253,146 @@
                                     </div>
                                     </div>
                                     <div class="col-4">
-                                        <!-- Email address input-->
                                         <div class="form-floating mb-3">
                                             <input class="form-control" name="DescripcionMaterias" id="DescripcionMaterias" type="text" placeholder="Ingrese cuales" />
-                                            <label for="email">Cuales deben?</label>
+                                            <label for="text">Cuales deben?</label>
                                         </div>
                                      </div>
                                 </div>
             
                                 <div class="row gx-4 gx-lg-5 justify-content-center mb-3 form-section" id="NoAdeudaMaterias">
                                     <div class="col-4">
-                                       <!-- Name input-->
                                        <div class="form-floating mb-3">
                                         <input class="form-control" name="Titulo" id="Titulo" type="text" placeholder="Ingrese Titulo" />
-                                        <label for="name">Titulo</label>
+                                        <label for="text">Titulo</label>
                                     </div>
                                     </div>
                                     <div class="col-4">
-                                        <!-- Email address input-->
                                         <div class="form-floating mb-3">
                                             <input class="form-control" name="Orientacion" id="Orientacion" type="text" placeholder="Orientacion" />
-                                            <label for="email">Orientacion</label>
+                                            <label for="text">Orientacion</label>
+                                        </div>
+                                     </div>
+                                </div>
+                                <div class="row gx-4 gx-lg-5 justify-content-center mb-3">
+                                    <div class="col-3">
+                                       <div class="form-floating mb-3">
+                                        <input class="form-control" name="OtorgadoPor" id="OtorgadoPor" type="text" placeholder="Ingrese Intitución" required/>
+                                        <label for="text">Otorgado Por</label>
+                                    </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="form-floating mb-3">
+                                            <input class="form-control" name="Promedio" id="Promedio" type="number" placeholder="Promedio" required/>
+                                            <label for="Promedio">Promedio</label>
+                                        </div>
+                                     </div>
+                                    <div class="col-3">
+                                        <div class="form-floating mb-3">
+                                            <input class="form-control" name="AnioEgreso" id="AnioEgreso" type="date" placeholder="Anio de Egreso" required/>
+                                            <label for="text">Anio de Egreso</label>
                                         </div>
                                      </div>
                                 </div>
             
-                              
-                          
-            
+        
+        
             </section>
+            <form id="">
+              
+
+                <h2 class="mb-3 text-center">Trayectoria Ocupacional</h2>
+
+                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                    <!-- <div class="row gx-4 gx-lg-5 justify-content-start mb-3"> -->
+                        <div class="col-8">
+                           <!-- Name input-->
+                           <label class="d-block mb-3">Trabaja</label>
+                           <div class="d-inline mb-3">
+                            
+                                <input class="form" name="TituloSecundario" id="TituloSecundarioSI" type="radio" value="1" />
+                                <label for="TituloSecundarioSI">SI</label>
+                            </div>
+
+                            <div class="d-inline mb-3">
+                                <input class="form" name="TituloSecundario" id="TituloSecundarioNO" type="radio" value="0" checked />
+                                <label for="TituloSecundarioNO">NO</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                        <!-- <div class="row gx-4 gx-lg-5 justify-content-start mb-3"> -->
+                            <div class="col-8">
+                               <!-- Name input-->
+                               <label class="d-block mb-4">Sector de Trabajo</label>
+                               <div class="d-inline mb-3">
+                                
+                                    <input class="form" name="Educación" id="Educación" type="radio" value="" />
+                                    <label for="Educación">Educación</label>
+                                </div>
+    
+                                <div class="d-inline mb-3">
+                                    <input class="form" name="Gobierno" id="Gobierno"  type="radio" value=""/>
+                                    <label for="Gobierno" >Gobierno Sector Público</label>
+                                </div>
+                                <div class="d-inline mb-3">
+                                    <input class="form" name="Financiero" id="TituloSecundarioNO" type="radio" value=""/>
+                                    <label for="Financiero">Servicio Financiero</label>
+                                </div>
+                                <div class="d-inline mb-3">
+                                    
+                                    <input class="form" name="Turismo" id="Turismo" type="radio" value="" />
+                                    <label for="Turismo">Turismo</label>
+                                </div>
+                                <div class="d-inline mb-3">
+                                    
+                                    <input class="form" name="Agropecuario" id="Agropecuario" type="radio" value="" />
+                                    <label for="Agropecuario">Sector Agropecuario</label>
+                                </div>
+                         
+
+                           
+                        </div>
+                        <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                            <!-- <div class="row gx-4 gx-lg-5 justify-content-start mb-3"> -->
+                                <div class="col-8">
+                              
+                                    <div class="d-inline mb-3">
+                                        <input class="form" name="Comercio" id="Comercio"  type="radio" value=""/>
+                                        <label for="Comercio" >Comercio</label>
+                                    </div>
+                                    <div class="d-inline mb-3">
+                                        <input class="form" name="Empresa" id="Empresa" type="radio" value=""/>
+                                        <label for="Empresa">Empresa</label>
+                                    </div>
+                                    <div class="d-inline mb-3">
+                                        <input class="form" name="Servicios" id="Servicios" type="radio" value=""/>
+                                        <label for="Servicios">Servicios</label>
+                                    </div>
+                                
+                               
+                                <div class="d-inline mb-3">
+                                    
+                                    <input class="form" name="Transporte" id="Transporte" type="radio" value="" />
+                                    <label for="Transporte">Transporte</label>
+                                </div>
+                                <div class="d-inline mb-3">
+                                    
+                                    <input class="form" name="Profesional" id="Profesional" type="radio" value="" />
+                                    <label for="Profesional">Profesional Independiente</label>
+                                </div>
+                            </div>
+
+                
+                        </div>
+                     </div>
+                </div>
+
+                
+                      
+              
+              
+            </form>
             <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
                 <div class="col-lg-6">
                     <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="btnGuardar" type="submit" onclick="guardarDatos()">Submit</button></div>
