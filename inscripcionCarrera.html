@@ -58,14 +58,12 @@
             
                                 <div class="row gx-4 gx-lg-5 justify-content-center mb-3">
                                     <div class="col-4">
-                                       <!-- surname input-->
                                        <div class="form-floating mb-3">
                                         <input class="form-control" name="Apellido" id="Apellido" type="text" placeholder="Apellido" required/>
                                         <label for="Apellido" required>Apellido</label>
                                     </div>
                                     </div>
                                     <div class="col-4">
-                                        <!-- Name input-->
                                         <div class="form-floating mb-3">
                                             <input class="form-control" name="Nombre" id="Nombre" type="text" placeholder="Nombre" required/>
                                             <label for="Nombre">Nombre</label>
@@ -75,7 +73,6 @@
             
                                 <div class="row gx-4 gx-lg-5 justify-content-center mb-3">
                                     <div class="col-4">
-                                       <!-- Name input-->
                                        <div class="form-floating mb-3">
                                             <select class="form-select" name="TipoDocumentoId" id="TipoDocumentoId" >
                                                 <option >Seleccione Tipo Documento</option>
@@ -87,7 +84,6 @@
                                         </div>
                                     </div>
                                     <div class="col-4">
-                                        <!-- Email address input-->
                                         <div class="form-floating mb-3">
                                             <input class="form-control" name="Documento" id="Documento" type="number" placeholder="Documento" required/>
                                             <label for="Documento">N° de Documento</label>
@@ -117,7 +113,6 @@
             
                                 <div class="row gx-4 gx-lg-5 justify-content-center mb-3">
                                     <div class="col-4">
-                                       <!-- Name input-->
                                        <div class="form-floating mb-3">
                                             <select class="form-select" name="EstadoCivilId" id="EstadoCivilId" >
                                                 <option>Seleccione Estado Civil</option>
@@ -215,34 +210,32 @@
                                     <div class="col-8">
                                        <div class="form-floating mb-3">
                                             <label for="email">Email</label>
-                                            <input class="form-control" name="email" id="email" type="email" placeholder="email" required/>
+                                            <input class="form-control" name="email" id="email" type="email" placeholder="email" autocomplete="off"required/>
                                           
                                        </div>
                                     </div>
                                 </div> 
-                         
-                            <!-- </form> -->
-
-            <!-- </section>                    -->
+ 
             <section class="formacion">
                 <form id="formacionForm ">
                             <div class="mb-3 text-center">
-                                <h2 >Formación Académica</h2>
+                                <h2 >Formación Académica</h2> 
+                                <!-- <label  for="TituloSecundarioSI" >Titulo Secundario</label>  -->
                                 <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
                                 <!-- <div class="row gx-4 gx-lg-5 justify-content-start mb-3"> -->
-                                    <div class="col-8">
+                                    <!-- <div class="col-8"> -->
                                        <!-- Name input-->
-                                       <label class="d-block mb-4" for="" >Titulo Secundario</label>
+                                       <h5>Titulo Secundario</h5> 
+                                   
                                        <!-- <div class="d-inline mb-3"> -->
                                         <div class="d-inline mb-3">
                                             <label for="TituloSecundarioSI">SI</label>
                                             <input class="TituloSecundarioSI" name="TituloSecundarioSI" id="TituloSecundarioSI" type="radio" value="1" />
                                             <!-- <label for="TituloSecundarioSI">SI</label> -->
-                                        </div>
-            
+                                       
                                         <div class="d-inline mb-3">
                                             <label for="TituloSecundarioNO">NO</label>
-                                            <input class="TituloSecundarioNO" name="TituloSecundarioNO" id="TituloSecundarioNO" type="radio" value="1" checked />
+                                            <input class="TituloSecundarioNO" name="TituloSecundarioNO" id="TituloSecundarioNO" type="radio" value="0"  />
                                            
                                         </div>
                                     </div>
@@ -316,7 +309,7 @@
                             </div>
 
                             <div class="d-inline mb-3">
-                                <input class="form" name="TrabajaNO" id="TrabajaNO"type="radio" value="0" checked />
+                                <input class="form" name="TrabajaNO" id="TrabajaNO"type="radio" value="0"  />
                                 <label for="TrabajaNO">NO</label>
                             </div>
                         </div>
