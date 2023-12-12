@@ -61,7 +61,7 @@
                                        <!-- surname input-->
                                        <div class="form-floating mb-3">
                                         <input class="form-control" name="Apellido" id="Apellido" type="text" placeholder="Apellido" required/>
-                                        <label for="apellido">Apellido</label>
+                                        <label for="apellido" required>Apellido</label>
                                     </div>
                                     </div>
                                     <div class="col-4">
@@ -77,20 +77,20 @@
                                     <div class="col-4">
                                        <!-- Name input-->
                                        <div class="form-floating mb-3">
-                                            <select class="form-select" name="TipoDocumentoId" id="TipoDocumentoId" required>
-                                                <option>Seleccione Tipo Documento</option>
+                                            <select class="form-select" name="TipoDocumentoId" id="TipoDocumentoId" >
+                                                <option >Seleccione Tipo Documento</option>
                                                 <option value="1">DNI</option>
                                                 <option value="2">CUIL</option>
                                                 <option value="3">LC</option>
                                             </select>
-                                            <label for="tipoDocumento">Tipo Documento</label>
+                                            <label >Tipo Documento</label>
                                         </div>
                                     </div>
                                     <div class="col-4">
                                         <!-- Email address input-->
                                         <div class="form-floating mb-3">
                                             <input class="form-control" name="Documento" id="Documento" type="number" placeholder="Documento" required/>
-                                            <label for="numeroDocumento">N° de Documento</label>
+                                            <label >N° de Documento</label>
                                         </div>
                                      </div>
                                 </div>
@@ -119,7 +119,7 @@
                                     <div class="col-4">
                                        <!-- Name input-->
                                        <div class="form-floating mb-3">
-                                            <select class="form-select" name="EstadoCivilId" id="EstadoCivilId" required>
+                                            <select class="form-select" name="EstadoCivilId" id="EstadoCivilId" >
                                                 <option>Seleccione Estado Civil</option>
                                                 <option value="1">Soltero/a</option>
                                                 <option value="2">Casado/a</option>
@@ -154,13 +154,13 @@
                                 <div class="row gx-4 gx-lg-5 justify-content-center mb-3">
                                     <div class="col-4">
                                        <div class="form-floating mb-3">
-                                        <input class="form-control" name="Piso" id="Piso" type="text" placeholder="Piso" required/>
+                                        <input class="form-control" name="Piso" id="Piso" type="mumber" placeholder="Piso" required/>
                                         <label for="calle">Piso</label>
                                     </div>
                                     </div>
                                     <div class="col-4">
                                         <div class="form-floating mb-3">
-                                            <input class="form-control" name="Departamento" id="Departamento" type="number" placeholder="Departamento" required/>
+                                            <input class="form-control" name="Departamento" id="Departamento" type="text" placeholder="Departamento" required/>
                                             <label for="Departamento">Departamento</label>
                                         </div>
                                      </div>
@@ -218,8 +218,9 @@
                                         <input class="form-control" name="email" id="email" type="email" placeholder="Email" required/>
                                         <label for="email">Email</label>
                                     </div>
-                               </div>  
-                            </form>
+                               </div> 
+                         
+                            <!-- </form> -->
 
             </section>                   
             <section class="formacion">
@@ -248,13 +249,13 @@
                                     <div class="col-4">
                                        <!-- Name input-->
                                        <div class="form-floating mb-3">
-                                        <input class="form-control" name="MateriasAdeuda" id="MateriasAdeuda" type="number" placeholder="Ingrese cantidad de materias" />
+                                        <input class="form-control" name="MateriasAdeuda" id="MateriasAdeuda" type="number" placeholder="Ingrese cantidad de materias"required />
                                         <label for="name">Cuantas materias debe?</label>
                                     </div>
                                     </div>
                                     <div class="col-4">
                                         <div class="form-floating mb-3">
-                                            <input class="form-control" name="DescripcionMaterias" id="DescripcionMaterias" type="text" placeholder="Ingrese cuales" />
+                                            <input class="form-control" name="DescripcionMaterias" id="DescripcionMaterias" type="text" placeholder="Ingrese cuales" required/>
                                             <label for="text">Cuales deben?</label>
                                         </div>
                                      </div>
@@ -263,13 +264,13 @@
                                 <div class="row gx-4 gx-lg-5 justify-content-center mb-3 form-section" id="NoAdeudaMaterias">
                                     <div class="col-4">
                                        <div class="form-floating mb-3">
-                                        <input class="form-control" name="Titulo" id="Titulo" type="text" placeholder="Ingrese Titulo" />
+                                        <input class="form-control" name="Titulo" id="Titulo" type="text" placeholder="Ingrese Titulo"required />
                                         <label for="text">Titulo</label>
                                     </div>
                                     </div>
                                     <div class="col-4">
                                         <div class="form-floating mb-3">
-                                            <input class="form-control" name="Orientacion" id="Orientacion" type="text" placeholder="Orientacion" />
+                                            <input class="form-control" name="Orientacion" id="Orientacion" type="text" placeholder="Orientacion"required />
                                             <label for="text">Orientacion</label>
                                         </div>
                                      </div>
@@ -300,14 +301,13 @@
             </section>
             <form id="">
               
-
                 <h2 class="mb-3 text-center">Trayectoria Ocupacional</h2>
-
                 <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
                     <!-- <div class="row gx-4 gx-lg-5 justify-content-start mb-3"> -->
                         <div class="col-8">
                            <!-- Name input-->
-                           <label class="d-block mb-3">Trabaja</label>
+                           <h5 class="mb-3 text-left">Trabaja</h5>
+                           <!-- <label class="d-block mb-3">Trabaja</label> -->
                            <div class="d-inline mb-3">
                             
                                 <input class="form" name="TituloSecundario" id="TituloSecundarioSI" type="radio" value="1" />
@@ -323,83 +323,70 @@
                     <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
                         <!-- <div class="row gx-4 gx-lg-5 justify-content-start mb-3"> -->
                             <div class="col-8">
-                               <!-- Name input-->
-                               <label class="d-block mb-4">Sector de Trabajo</label>
+                         
+                               <h5 class="mb-3 text-left">Sector de Trabajo</h5>
+                               <!-- <label class="d-block mb-4">Sector de Trabajo</label> -->
                                <div class="d-inline mb-3">
                                 
+                                    <div class="col-8">
                                     <input class="form" name="Educación" id="Educación" type="radio" value="" />
                                     <label for="Educación">Educación</label>
-                                </div>
-    
-                                <div class="d-inline mb-3">
+                                
+                                <!-- <div class="d-inline mb-3"> -->
                                     <input class="form" name="Gobierno" id="Gobierno"  type="radio" value=""/>
                                     <label for="Gobierno" >Gobierno Sector Público</label>
-                                </div>
-                                <div class="d-inline mb-3">
+                              
+                                <!-- <div class="d-inline mb-3"> -->
                                     <input class="form" name="Financiero" id="TituloSecundarioNO" type="radio" value=""/>
                                     <label for="Financiero">Servicio Financiero</label>
-                                </div>
-                                <div class="d-inline mb-3">
+                                 <!-- <div class="col-8"> -->
+                                <!-- <div class="d-inline mb-3"> -->
                                     
                                     <input class="form" name="Turismo" id="Turismo" type="radio" value="" />
                                     <label for="Turismo">Turismo</label>
-                                </div>
-                                <div class="d-inline mb-3">
+                                </div>    
+                        
+                                 <!-- <div class="row gx-4 gx-lg-5 justify-content-center mb-3"> -->
+                              
+                                
                                     
                                     <input class="form" name="Agropecuario" id="Agropecuario" type="radio" value="" />
                                     <label for="Agropecuario">Sector Agropecuario</label>
-                                </div>
-                         
-
-                           
-                        </div>
-                        <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-                            <!-- <div class="row gx-4 gx-lg-5 justify-content-start mb-3"> -->
-                                <div class="col-8">
+                      
+                                    <input class="form" name="Comercio" id="Comercio"  type="radio" value=""/>
+                                    <label for="Comercio">Comercio</label>
                               
-                                    <div class="d-inline mb-3">
-                                        <input class="form" name="Comercio" id="Comercio"  type="radio" value=""/>
-                                        <label for="Comercio" >Comercio</label>
-                                    </div>
-                                    <div class="d-inline mb-3">
-                                        <input class="form" name="Empresa" id="Empresa" type="radio" value=""/>
-                                        <label for="Empresa">Empresa</label>
-                                    </div>
-                                    <div class="d-inline mb-3">
-                                        <input class="form" name="Servicios" id="Servicios" type="radio" value=""/>
-                                        <label for="Servicios">Servicios</label>
-                                    </div>
-                                
-                               
-                                <div class="d-inline mb-3">
-                                    
+                                  
+                                    <input class="form" name="Empresa" id="Empresa" type="radio" value=""/>
+                                    <label for="Empresa">Empresa</label>
+                                 
+                                    <input class="form" name="Servicios" id="Servicios" type="radio" value=""/>
+                                    <label for="Servicios">Servicios</label>
+                            
+            
                                     <input class="form" name="Transporte" id="Transporte" type="radio" value="" />
                                     <label for="Transporte">Transporte</label>
-                                </div>
-                                <div class="d-inline mb-3">
-                                    
+                      
                                     <input class="form" name="Profesional" id="Profesional" type="radio" value="" />
                                     <label for="Profesional">Profesional Independiente</label>
                                 </div>
                             </div>
-
-                
-                        </div>
-                     </div>
+            
                 </div>
 
                 
                       
               
               
-            </form>
+           
             <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
                 <div class="col-lg-6">
-                    <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="btnGuardar" type="submit" onclick="guardarDatos()">Submit</button></div>
-     
+                    <div class="d-grid"><button class="btn btn-primary btn-xl" id="btnGuardar" type="submit">Enviar</button></div>
                 </div>
             </div>
-            
+
+           
+             </form>
                     
                      <!-- Footer-->
         <footer class="footer text-center" id="footer">
@@ -442,6 +429,8 @@
                 </body>
             </html>
 
+         
+            
             <script src="js/scripts.js"></script>
             <script src="/act.js"></script>   
     </body>
