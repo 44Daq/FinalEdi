@@ -55,25 +55,24 @@
                                 </div>
             
                                 <h2 class="mb-3 text-center">Datos Personales</h2>
-            
-                                <div class="row gx-4 gx-lg-5 justify-content-center mb-3">
+                                <div class="row gx-4 gx-lg-5 justify-content-center mb-2">
                                     <div class="col-4">
-                                       <div class="form-floating mb-3">
+                                       <div class="form-floating mb-2">
                                         <input class="form-control" name="Apellido" id="Apellido" type="text" placeholder="Apellido" required/>
-                                        <label for="Apellido" required>Apellido</label>
+                                        <label for="Apellido" required>Apellidos</label>
                                     </div>
                                     </div>
                                     <div class="col-4">
-                                        <div class="form-floating mb-3">
+                                        <div class="form-floating mb-2">
                                             <input class="form-control" name="Nombre" id="Nombre" type="text" placeholder="Nombre" required/>
-                                            <label for="Nombre">Nombre</label>
+                                            <label for="Nombre">Nombres</label>
                                         </div>
                                     </div>
                                 </div>
             
-                                <div class="row gx-4 gx-lg-5 justify-content-center mb-3">
+                                <div class="row gx-4 gx-lg-5 justify-content-center mb-2">
                                     <div class="col-4">
-                                       <div class="form-floating mb-3">
+                                        <div class="form-floating mb-2">
                                             <select class="form-select" name="TipoDocumentoId" id="TipoDocumentoId" >
                                                 <option >Seleccione Tipo Documento</option>
                                                 <option value="1">DNI</option>
@@ -84,36 +83,15 @@
                                         </div>
                                     </div>
                                     <div class="col-4">
-                                        <div class="form-floating mb-3">
+                                        <div class="form-floating mb-2">
                                             <input class="form-control" name="Documento" id="Documento" type="number" placeholder="Documento" required/>
                                             <label for="Documento">N° de Documento</label>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row gx-4 gx-lg-5 justify-content-center mb-3">
-                                    <div class="col-2">
-                                       <div class="form-floating mb-3">
-                                        <input class="form-control" name="fechaNac" id="fechaNac" type="date" placeholder="Fecha de Nacimiento" required />
-                                        <label for="fechaNac">Fecha Nac</label>
-                                    </div>
-                                    </div>
-                                    <div class="col-3">
-                                        <div class="form-floating mb-3">
-                                            <input class="form-control" name="lugarNac" id="lugarNac" type="text" placeholder="Lugar de Nacimento" required/>
-                                            <label for="lugarNac">Lugar de Nacimiento</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-3">
-                                        <div class="form-floating mb-3">
-                                            <input class="form-control" name="Nacionalidad" id="Nacionalidad" type="text" placeholder="Nacionalidad" required/>
-                                            <label for="Nacionalidad">Nacionalidad</label>
-                                        </div>
-                                    </div>
-                                </div>
-            
-                                <div class="row gx-4 gx-lg-5 justify-content-center mb-3">
+                                <div class="row gx-4 gx-lg-5 justify-content-center mb-2">
                                     <div class="col-4">
-                                       <div class="form-floating mb-3">
+                                        <div class="form-floating mb-2">
                                             <select class="form-select" name="EstadoCivilId" id="EstadoCivilId" >
                                                 <option>Seleccione Estado Civil</option>
                                                 <option value="1">Soltero/a</option>
@@ -123,24 +101,57 @@
                                         </div>
                                     </div>
                                     <div class="col-4">
-                                        <div class="form-floating mb-3">
+                                        <div class="form-floating mb-2">
                                             <input class="form-control" name="Sexo" id="Sexo" type="text" placeholder="Sexo"  required/>
                                             <label for="Sexo">Sexo</label>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="row gx-4 gx-lg-5 justify-content-center mb-2">
+                                    <div class="col-4">
+                                        <div class="form-floating mb-2">
+                                        <input class="form-control" name="fechaNac" id="fechaNac" type="date" placeholder="Fecha de Nacimiento" required />
+                                        <label for="fechaNac">Fecha Nac</label>
+                                    </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="form-floating mb-2">
+                                        <input class="form-control" name="lugarNac" id="lugarNac" type="text" placeholder="Lugar de Nacimento" required/>
+                                        <label for="lugarNac">Lugar de Nacimiento</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                    
+                                <div class="row gx-4 gx-lg-5 justify-content-center mb-2">
+                                        
+                                    <div class="col-4">
+                                        <div class="form-floating mb-2">
+                                        <input class="form-control" name="Provincia" id="Provincia" type="text" placeholder="Provincia" required />
+                                        <label for="Provincia">Provincia</label>
+                                        </div>
+                                    </div>
+                               
+                                    <div class="col-4">
+                                        <div class="form-floating mb-2">
+                                        <input class="form-control" name="Nacionalidad" id="Nacionalidad" type="text" placeholder="Nacionalidad" required/>
+                                        <label for="Nacionalidad">Nacionalidad</label>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                             
                                 
                                 <h4 class="mb-3 text-center">Domicilio</h4>
             
                                 <div class="row gx-4 gx-lg-5 justify-content-center mb-3">
                                     <div class="col-4">
-                                       <div class="form-floating mb-3">
+                                        <div class="form-floating mb-2">
                                         <input class="form-control" name="Calle" id="Calle" type="text" placeholder="Calle" required/>
                                         <label for="Calle">Calle</label>
                                     </div>
                                     </div>
                                     <div class="col-4">
-                                        <div class="form-floating mb-3">
+                                        <div class="form-floating mb-2">
                                             <input class="form-control" name="Altura" id="Altura" type="number" placeholder="Altura" required/>
                                             <label for="Altura">Altura</label>
                                         </div>
@@ -148,13 +159,13 @@
                                 </div>
                                 <div class="row gx-4 gx-lg-5 justify-content-center mb-3">
                                     <div class="col-4">
-                                       <div class="form-floating mb-3">
+                                        <div class="form-floating mb-2">
                                         <input class="form-control" name="Piso" id="Piso" type="mumber" placeholder="Piso" required/>
                                         <label for="Piso">Piso</label>
                                     </div>
                                     </div>
                                     <div class="col-4">
-                                        <div class="form-floating mb-3">
+                                        <div class="form-floating mb-2">
                                             <input class="form-control" name="Departamento" id="Departamento" type="text" placeholder="Departamento" required/>
                                             <label for="Departamento">Departamento</label>
                                         </div>
@@ -163,13 +174,13 @@
                                 
                                 <div class="row gx-4 gx-lg-5 justify-content-center mb-3">
                                     <div class="col-4">
-                                       <div class="form-floating mb-3">
+                                        <div class="form-floating mb-2">
                                         <input class="form-control" name="Distrito" id="Distrito" type="text" placeholder="Distrito" required />
                                         <label for="Distrito">Distrito</label>
                                     </div>
                                     </div>
                                     <div class="col-4">
-                                        <div class="form-floating mb-3">
+                                        <div class="form-floating mb-2">
                                             <input class="form-control" name="CodigoPostal" id="CodigoPostal" type="number" placeholder="CodigoPostal" required/>
                                             <label for="CodigoPostal">Código Postal</label>
                                         </div>
@@ -177,13 +188,13 @@
                                 </div>
                                 <div class="row gx-4 gx-lg-5 justify-content-center mb-3">
                                     <div class="col-4">
-                                        <div class="form-floating mb-3">
+                                        <div class="form-floating mb-2">
                                             <input class="form-control" name="Localidad" id="Localidad" type="text" placeholder="Localidad" required/>
                                             <label for="Localidad">Localidad</label>
                                         </div>
                                     </div>
                                     <div class="col-4">
-                                        <div class="form-floating mb-3">
+                                        <div class="form-floating mb-2">
                                             <input class="form-control" name="Provincia" id="Provincia" type="text" placeholder="Provincia" required />
                                             <label for="Provincia">Provincia</label>
                                         </div>
@@ -194,13 +205,13 @@
             
                                 <div class="row gx-4 gx-lg-5 justify-content-center mb-3">
                                     <div class="col-4">
-                                       <div class="form-floating mb-3">
+                                        <div class="form-floating mb-2">
                                             <input class="form-control" name="telFijo" id="telFijo" type="number" placeholder="telFijo" required/>
                                             <label for="telFijo">Telefono Fijo</label>
                                         </div>
                                     </div>
                                     <div class="col-4">
-                                        <div class="form-floating mb-3">
+                                        <div class="form-floating mb-2">
                                             <input class="form-control" name="Celular" id="Celular" type="number" placeholder="Celular" required/>
                                             <label for="Celular">Celular</label>
                                         </div>
@@ -208,7 +219,7 @@
                                 </div>
                                 <div class="row gx-4 gx-lg-5 justify-content-center mb-3">
                                     <div class="col-8">
-                                       <div class="form-floating mb-3">
+                                        <div class="form-floating mb-2">
                                             <label for="email">Email</label>
                                             <input class="form-control" name="email" id="email" type="email" placeholder="email" autocomplete="off"required/>
                                           
@@ -244,13 +255,13 @@
                                 <div class="row gx-4 gx-lg-5 justify-content-center mb-3 form-section" id="SiAdeudaMaterias">
                                     <div class="col-4">
                                     
-                                       <div class="form-floating mb-3">
+                                        <div class="form-floating mb-2">
                                             <input class="form-control" name="MateriasAdeuda" id="MateriasAdeuda" type="number" placeholder="Ingrese cantidad de materias"required />
                                             <label for="TituloSecundarioNO">Cuantas materias debe?</label>
                                         </div>
                                     </div>
                                     <div class="col-4">
-                                        <div class="form-floating mb-3">
+                                        <div class="form-floating mb-2">
                                             <input class="form-control" name="DescripcionMaterias" id="DescripcionMaterias" type="text" placeholder="Ingrese cuales" required/>
                                             <label for="TituloSecundarioNO">Cuales deben?</label>
                                         </div>
@@ -259,13 +270,13 @@
             
                                 <div class="row gx-4 gx-lg-5 justify-content-center mb-3 form-section" id="NoAdeudaMaterias">
                                     <div class="col-4">
-                                       <div class="form-floating mb-3">
+                                        <div class="form-floating mb-2">
                                          <input class="form-control" name="Titulo" id="Titulo" type="text" placeholder="Ingrese Titulo"required />
                                          <label for="TituloSecundarioSI">Titulo</label>
                                         </div>
                                     </div>
                                     <div class="col-4">
-                                        <div class="form-floating mb-3">
+                                        <div class="form-floating mb-2">
                                             <input class="form-control" name="Orientacion" id="Orientacion" type="text" placeholder="Orientacion"required />
                                             <label for="TituloSecundarioSI">Orientacion</label>
                                         </div>
@@ -274,19 +285,19 @@
                                 </div>
                                 <div class="row gx-4 gx-lg-5 justify-content-center mb-3">
                                     <div class="col-3">
-                                       <div class="form-floating mb-3">
+                                        <div class="form-floating mb-2">
                                             <input class="form-control" name="OtorgadoPor" id="OtorgadoPor" type="text" placeholder="Ingrese Intitución" required/>
                                             <label for="TituloSecundarioSI">Otorgado Por</label>
                                         </div>
                                     </div>
                                     <div class="col-2">
-                                        <div class="form-floating mb-3">
+                                        <div class="form-floating mb-2">
                                             <input class="form-control" name="Promedio" id="Promedio" type="number" placeholder="Promedio" required/>
                                             <label for="TituloSecundarioSI">Promedio</label>
                                         </div>
                                     </div>
                                     <div class="col-3">
-                                        <div class="form-floating mb-3">
+                                        <div class="form-floating mb-2">
                                             <input class="form-control" name="AnioEgreso" id="AnioEgreso" type="date" placeholder="Anio de Egreso" required/>
                                             <label for="TituloSecundarioSI">Anio de Egreso</label>
                                         </div>
