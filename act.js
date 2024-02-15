@@ -56,4 +56,18 @@ function comprobarClave() {
         
     ) 
   //  ver
-   
+
+ 
+
+
+  var checkbox = document.getElementById('TituloSecundarioNO');
+  var miDiv = document.getElementById('secundarioVisible');
+
+  // Agrega un event listener para el cambio del checkbox
+  checkbox.addEventListener('change', function() {
+      // Si el checkbox está marcado, muestra el div; de lo contrario, ocúltalo
+      console.log("funco");
+      miDiv.style.display = checkbox.checked ? 'none' : 'block';
+  });
+
+  

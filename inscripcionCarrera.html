@@ -229,13 +229,13 @@
  
             <section class="formacion">
                 <form id="formacionForm ">
+                    
                             <div class="mb-3 text-center">
                                 <h2 >Formación Académica</h2> 
-                                <!-- <label  for="TituloSecundarioSI" >Titulo Secundario</label>  -->
                                 <div class="row gx-4 gx-lg-5 justify-content-center mb-2">
-                                <!-- <div class="row gx-4 gx-lg-5 justify-content-start mb-3"> -->
-                                    <!-- <div class="col-8"> -->
-                                       <!-- Name input-->
+                             
+                                
+                                       
                                        <h5>Titulo Secundario</h5> 
                                    
                                        <!-- <div class="d-inline mb-3"> -->
@@ -249,6 +249,7 @@
                                                 <input class="TituloSecundarioSI" name="TituloSecundarioSI" id="TituloSecundarioSI" type="radio" value="1" />
                                                
                                             </div>
+                                            <div id="secundarioVisible">
                                             <div class="row gx-4 gx-lg-6 justify-content-center mb-2 form-section" id="NoAdeudaMaterias">
                                                 <div class="col-4">
                                                     <div class="form-floating mb-2">
@@ -350,7 +351,7 @@
                                     <div class="row gx-4 gx-lg-6 justify-content-center mb-2 form-section" id="NoAdeudaMaterias">
                                         <div class="col-4">
                                             <div class="form-floating mb-2">
-                                                <input class="form-control" name="Promedio" id="Promedio" type="number" placeholder="Promedio" required/>
+                                                <input class="form-control" name="Promedio" id="Promedio" type="text" placeholder="Promedio" required/>
                                                 <label for="TituloSecundarioSI">Mayor Título Otorgado</label>
                                             </div>
                                         </div>
@@ -364,125 +365,135 @@
                                     </div>
                                
                                 <h5>Nivel Educativo del Padre</h5> 
-                                   
-                                <div class="d-inline mb-4">
-                                    <div class="d-inline mb-2">
-                                        <label for="MayorTitulo">Nunca Asistió</label>
-                                        <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
-                                       
-                                    </div>
-
-                                    <div class="d-inline mb-2">
-                                         <label for="MayorTitulo">Primaria Incompleta</label>
+                               
+                                <div class="col-8">
+                                    <div class="row gx-4 gx-lg-5 justify-content-center mb-2 form-section" id="TrabajaSI">
+                                        <div class="col-4">
+                                            <label for="MayorTitulo">Nunca Asistió</label>
+                                            <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
+                                        </div>
+                                        <div class="col-4">
+                                            <label for="MayorTitulo">Primaria Incompleta</label>
                                          <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
-                                        
-                                    </div>
-                                    <div class="d-inline mb-2">
-                                        <label for="MayorTitulo">Primaria Completa</label>
-                                        <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
-                                       
-                                    </div>  
-                                    <div class="d-inline mb-2">
-                                        <label for="MayorTitulo">Secundaria Incompleta</label>
-                                        <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
-                                       
-                                    </div>
-
-                                    <div class="d-inline mb-2">
-                                         <label for="MayorTitulo">Secundaria Completa</label>
-                                         <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
-                                        
+                                        </div>
+                                        <div class="col-4">
+                                            <label for="MayorTitulo">Primaria Completa</label>
+                                            <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
+                                        </div>
                                     </div>
                                 </div>
-                                    <div class="d-inline mb-4">
-                                        <div class="d-inline mb-2">
+                                <div class="col-8">
+                                    <div class="row gx-4 gx-lg-5 justify-content-center mb-2 form-section" id="TrabajaSI">
+                                        <div class="col-4">
+                                            <label for="MayorTitulo">Secundaria Incompleta</label>
+                                        <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
+                                        </div>
+                                        <div class="col-4">
+                                            <label for="MayorTitulo">Secundaria Completa</label>
+                                            <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
+                                        </div>
+                                        <div class="col-4">
                                             <label for="MayorTitulo">Terciario Incompleto</label>
                                             <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
-                                           
                                         </div>
-    
-                                        <div class="d-inline mb-2">
-                                             <label for="MayorTitulo">Terciario Completo</label>
-                                             <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
-                                            
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="row gx-4 gx-lg-5 justify-content-center mb-2 form-section" id="TrabajaSI">
+                                        <div class="col-4">
+                                            <label for="MayorTitulo">Terciario Completo</label>
+                                            <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
                                         </div>
-                                        <div class="d-inline mb-2">
+                                        <div class="col-4">
                                             <label for="MayorTitulo">Universitario Incompleto</label>
                                             <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
-                                           
-                                        </div>  
-                                        <div class="d-inline mb-2">
+                                        </div>
+                                        <div class="col-4">
                                             <label for="MayorTitulo">Universitario Completo</label>
                                             <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
-                                           
                                         </div>
-    
-                                        <div class="d-inline mb-2">
-                                             <label for="MayorTitulo">No sabe - No contesta</label>
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="row gx-4 gx-lg-5 justify-content-center mb-2 form-section" id="TrabajaSI">
+                                        <div class="col-4">
+                                            <label for="MayorTitulo">No sabe - No contesta</label>
                                              <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
                                             
                                         </div>
                                     </div>
-                                        <h5>Nivel Educativo de la Madre</h5> 
+                                </div>
+                            </div>
+                                       
+                            <h5>Nivel Educativo de la Madre</h5> 
                                    
-                                        <div class="d-inline mb-4">
-                                            <div class="d-inline mb-2">
+                                <div class="col-8">
+                                    <div class="row gx-4 gx-lg-5 justify-content-center mb-2 form-section" id="TrabajaSI">
+                                        <div class="col-4">
                                                 <label for="MayorTitulo">Nunca Asistió</label>
                                                 <input class="NivelMadre" name="NivelMadre" id="NivelMadre" type="radio" value="1"  />
                                                
                                             </div>
         
-                                            <div class="d-inline mb-2">
+                                            <div class="col-4">
                                                  <label for="MayorTitulo">Primaria Incompleta</label>
                                                  <input class="NivelMadre" name="NivelMadre" id="NivelMadre" type="radio" value="1"  />
                                                 
                                             </div>
-                                            <div class="d-inline mb-2">
+                                            <div class="col-4">
                                                 <label for="MayorTitulo">Primaria Completa</label>
                                                 <input class="NivelMadre" name="NivelMadre" id="NivelMadre" type="radio" value="1"  />
                                                
                                             </div>  
-                                            <div class="d-inline mb-2">
+                                    </div>
+                                
+                                    <div class="row gx-4 gx-lg-5 justify-content-center mb-2 form-section" id="TrabajaSI">
+                                            <div class="col-4">
                                                 <label for="MayorTitulo">Secundaria Incompleta</label>
                                                 <input class="NivelMadre" name="NivelMadre" id="NivelMadre" type="radio" value="1"  />
                                                
                                             </div>
         
-                                            <div class="d-inline mb-2">
+                                            <div class="col-4">
                                                  <label for="MayorTitulo">Secundaria Completa</label>
                                                  <input class="NivelMadre" name="NivelMadre" id="NivelMadre" type="radio" value="1"  />
                                                 
                                             </div>
-                                        </div>
-                                            <div class="d-inline mb-4">
+                                    
+                                            <div class="col-4">
                                                 <div class="d-inline mb-2">
                                                     <label for="MayorTitulo">Terciario Incompleto</label>
                                                     <input class="NivelMadre" name="NivelMadre" id="NivelMadre" type="radio" value="1"  />
                                                    
                                                 </div>
-            
-                                                <div class="d-inline mb-2">
+                                            </div>
+                                    </div> 
+                                  
+
+                                    <div class="row gx-4 gx-lg-5 justify-content-center mb-2 form-section" id="TrabajaSI">
+                                                <div class="col-4">
                                                      <label for="MayorTitulo">Terciario Completo</label>
                                                      <input class="NivelMadre" name="NivelMadre" id="NivelMadre" type="radio" value="1"  />
                                                     
                                                 </div>
-                                                <div class="d-inline mb-2">
+                                                <div class="col-4">
                                                     <label for="MayorTitulo">Universitario Incompleto</label>
                                                     <input class="NivelMadre" name="NivelMadre" id="NivelMadre" type="radio" value="1"  />
                                                    
                                                 </div>  
-                                                <div class="d-inline mb-2">
+                                                <div class="col-4">
                                                     <label for="MayorTitulo">Universitario Completo</label>
                                                     <input class="NivelMadre" name="NivelMadre" id="NivelMadre" type="radio" value="1"  />
                                                    
                                                 </div>
-            
-                                                <div class="d-inline mb-2">
-                                                     <label for="MayorTitulo">No sabe - No contesta</label>
-                                                     <input class="NivelMadre" name="NivelMadre" id="NivelMadre" type="radio" value="1"  />
+                                    </div>            
+                                    <div class="row gx-4 gx-lg-5 justify-content-center mb-2 form-section" id="TrabajaSI">
+                                        <div class="col-4">   
+                                            <label for="MayorTitulo">No sabe - No contesta</label>
+                                            <input class="NivelMadre" name="NivelMadre" id="NivelMadre" type="radio" value="1"  />
                                                     
-                                                </div>
-                                            </div>                             
+                                        </div>
+                                    </div>                             
             
         
         
@@ -529,50 +540,51 @@
                             
                         </div>
                      
-                            <div class="col-8">
-                                <div class="row gx-4 gx-lg-5 justify-content-center mb-2 form-section" id="TrabajaSI">
-                                    <div class="col-4">
-                                        <input class="form" name="Trabaja" id="Trabaja"  type="radio" value="1"/>
-                                        <label for="Turismo">Turismo</label>
-                                    </div>
-                                    <div class="col-4">
-                                        <input class="form" name="Trabaja" id="Trabaja"  type="radio" value="1"/>
-                                        <label for="Agropecuario">Sector Agropecuario</label>
-                                    </div>
-                                    <div class="col-4">
-                                        <input class="form" name="Trabaja" id="Trabaja"  type="radio" value="1"/>
-                                        <label for="Comercio">Comercio</label>
-                                    </div>
-                                </div>
-                            </div>
                         <div class="col-8">
                             <div class="row gx-4 gx-lg-5 justify-content-center mb-2 form-section" id="TrabajaSI">
-                                    <div class="col-4">
-                                        <input class="form" name="Trabaja" id="Trabaja"  type="radio" value="1"/>
-                                        <label for="Empresa">Empresa</label>
-                                    </div>
-                                    <div class="col4">
-                                        <input class="form" name="Trabaja" id="Trabaja"  type="radio" value="1"/>
-                                        <label for="Servicios">Servicios</label>
-                                    </div>
-                                    <div class="col-4">
-                                        <input class="form" name="Trabaja" id="Trabaja"  type="radio" value="1"/>
-                                        <label for="Transporte">Transporte</label>
-                                    </div>
+                                <div class="col-4">
+                                    <input class="form" name="Trabaja" id="Trabaja"  type="radio" value="1"/>
+                                    <label for="Turismo">Turismo</label>
+                                </div>
+                                <div class="col-4">
+                                    <input class="form" name="Trabaja" id="Trabaja"  type="radio" value="1"/>
+                                    <label for="Agropecuario">Sector Agropecuario</label>
+                                </div>
+                                <div class="col-4">
+                                    <input class="form" name="Trabaja" id="Trabaja"  type="radio" value="1"/>
+                                    <label for="Comercio">Comercio</label>
+                                </div>
                             </div>
                         </div>
-                            <div class="col-8">
-                                <div class="row gx-4 gx-lg-5 justify-content-center mb-2 form-section" id="TrabajaSI">
-                                    <div class="col-4">
-                                        <input class="form" name="Trabaja" id="Trabaja"  type="radio" value="1"/>
-                                      <label for="Profesional">Profesional Independiente</label>
-                                    </div>
+                        <div class="col-8">
+                            <div class="row gx-4 gx-lg-5 justify-content-center mb-2 form-section" id="TrabajaSI">
+                                <div class="col-4">
+                                    <input class="form" name="Trabaja" id="Trabaja"  type="radio" value="1"/>
+                                    <label for="Empresa">Empresa</label>
                                 </div>
-                            </div>  
-                        </div> 
+                                <div class="col-4">
+                                    <input class="form" name="Trabaja" id="Trabaja"  type="radio" value="1"/>
+                                    <label for="Servicios">Servicios</label>
+                                </div>
+                                <div class="col-4">
+                                    <input class="form" name="Trabaja" id="Trabaja"  type="radio" value="1"/>
+                                    <label for="Transporte">Transporte</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="row gx-4 gx-lg-5 justify-content-center mb-2 form-section" id="TrabajaSI">
+                                <div class="col-4">
+                                    <input class="form" name="Trabaja" id="Trabaja"  type="radio" value="1"/>
+                                    <label for="Profesional">Profesional Independiente</label>
+                                </div>
+                            </div>
+                        </div>
+                          
+                        
                     </div>
 
-                </div>
+                
                       
               
               
