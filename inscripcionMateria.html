@@ -36,18 +36,18 @@
 
             <section>
 
-                <form id="contactForm ">
+                <form id="materiasForm ">
                                 <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
                                     <div class="col-8">
                                         <div class="form-floating mb-">
-                                            <select class="form-select" name="CarreraId" id="CarreraId" required>
+                                            <select class="form-select" name="materiasId" id="materiasId" required>
                                                 <option>Seleccione Carrera</option>
-                                                <option value="1">Análisis, Desarrollo y Programación de Aplicaciones</option>
-                                                <option value="2">Administración con Orientación en Marketing</option>
-                                                <option value="3">Guía de Turismo</option>
-                                                <option value="3">Enfermería</option>
-                                                <option value="3">Administración Contable</option>
-                                                <option value="3">dministración Pública</option>
+                                                <option value="1" id="programacion">Análisis, Desarrollo y Programación de Aplicaciones</option>
+                                                <option value="2" id="administracion">Administración con Orientación en Marketing</option>
+                                                <option value="3" id="turismo">Guía de Turismo</option>
+                                                <option value="3" id="enfermeria">Enfermería</option>
+                                                <option value="3" id="contable">Administración Contable</option>
+                                                <option value="3" id="publica">dministración Pública</option>
                                             </select>
                                             <label for="CarreraId">Carrera</label>
                                         </div>
@@ -66,45 +66,45 @@
                         <div class="row gx-4 gx-lg-8 justify-content-center mb-2">
                         <h5>Primer Año</h5>
                         <div class="col-8">
-                        <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="TrabajaSI">
+                        <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="programacion">
                                 <div class="col-6">
-                                    <label for="MayorTitulo">Metodología de la Investigación</label>
-                                    <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="0"  />
+                                    <label for="programacion">Metodología de la Investigación</label>
+                                    <input class="programacion" name="programacion" id="programacion" type="checkbox" />
                                 </div>
                                 <div class="col-6">
-                                    <label for="MayorTitulo">Administración de las Organizaciones</label>       
-                                    <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="0"  />
+                                    <label for="programacionId">Administración de las Organizaciones</label>       
+                                    <input class="programacion" name="programacion" id="programacion" type="checkbox" />
                                 </div>
                            
                             </div>  
-                        <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="TrabajaSI">
+                        <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="programacion">
                             <div class="col-6">
-                                <label for="MayorTitulo">Análisis Matemático I</label>
-                                <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="0"  />
+                                <label for="programacion">Análisis Matemático I</label>
+                                <input class="programacion" name="programacion" id="programacion" type="checkbox"value="0"  />
                             </div>
                             <div class="col-6">
-                                <label for="MayorTitulo">Sistemas de Computación</label>
-                             <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
-                            </div>
-                        </div>
-                        <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="TrabajaSI">
-                            <div class="col-6">
-                                <label for="MayorTitulo">Inglés Técnico I </label>
-                                <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
-                            </div>
-                            <div class="col-6">
-                                <label for="MayorTitulo">Programación I</label>
-                             <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
+                                <label for="programacion">Sistemas de Computación</label>
+                             <input class="programacion" name="programacion" id="programacion" type="checkbox"  />
                             </div>
                         </div>
-                        <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="TrabajaSI">
+                        <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="programacionSI">
                             <div class="col-6">
-                                <label for="MayorTitulo">Álgebra</label>
-                                <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
+                                <label for="programacion">Inglés Técnico I </label>
+                                <input class="programacion" name="programacion" id="programacion" type="checkbox" value="1"  />
                             </div>
                             <div class="col-6">
-                                <label for="MayorTitulo">EDI- UX</label>
-                             <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
+                                <label for="programacion">Programación I</label>
+                             <input class="programacion" name="programacion" id="programacion" type="checkbox" value="1"  />
+                            </div>
+                        </div>
+                        <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="programacion">
+                            <div class="col-6">
+                                <label for="programacion">Álgebra</label>
+                                <input class="programacion" name="programacion" id="programacion" type="checkbox" value="1"  />
+                            </div>
+                            <div class="col-6">
+                                <label for="programacion">EDI- UX</label>
+                             <input class="programacion" name="programacion" id="programacion" type="checkbox" value="1"  />
                             </div>
                         </div>
     
@@ -112,91 +112,91 @@
                  
                     <h5>Segundo Año</h5>
                     <div class="col-8">
-                        <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="TrabajaSI">
+                        <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="programacion">
                             <div class="col-6">
-                                <label for="MayorTitulo">Analisis de Sistemas</label>
-                                <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
+                                <label for="programacion">Analisis de Sistemas</label>
+                                <input class="programacion" name="programacion" id="programacion" type="checkbox" value="1"  />
                             </div>
                             <div class="col-6">
-                                <label for="MayorTitulo">EDI - UX II</label>
-                             <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
+                                <label for="programacion">EDI - UX II</label>
+                             <input class="programacion" name="programacion" id="programacion" type="checkbox" value="1"  />
                             </div>
                        
                         </div>  
-                    <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="TrabajaSI">
+                    <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="programacion">
                         <div class="col-6">
-                            <label for="MayorTitulo">Sistemas Operativos</label>
-                            <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
+                            <label for="programacion">Sistemas Operativos</label>
+                            <input class="programacion" name="programacion" id="programacion" type="checkbox" value="1"  />
                         </div>
                         <div class="col-6">
-                            <label for="MayorTitulo">Probabilidad y Estadística</label>
-                         <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
-                        </div>
-                    </div>
-                    <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="TrabajaSI">
-                        <div class="col-6">
-                            <label for="MayorTitulo">Base de Datos</label>
-                            <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
-                        </div>
-                        <div class="col-6">
-                            <label for="MayorTitulo">Inglés Técnico II</label>
-                         <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
+                            <label for="programacion">Probabilidad y Estadística</label>
+                         <input class="programacion" name="programacion" id="programacion" type="checkbox" value="1"  />
                         </div>
                     </div>
-                    <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="TrabajaSI">
+                    <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="programacion">
                         <div class="col-6">
-                            <label for="MayorTitulo">Seminario de Programación</label>
-                            <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
+                            <label for="programacion">Base de Datos</label>
+                            <input class="programacion" name="programacion" id="programacion" type="checkbox" value="1"  />
                         </div>
                         <div class="col-6">
-                            <label for="MayorTitulo">Análisis Matemático II</label>
-                         <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
+                            <label for="programacion">Inglés Técnico II</label>
+                         <input class="programacion" name="programacion" id="programacion" type="checkbox" value="1"  />
                         </div>
                     </div>
-                    <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="TrabajaSI">
+                    <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="programacion">
                         <div class="col-6">
-                            <label for="MayorTitulo">Programación Orientada a Objetos</label>
-                            <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
+                            <label for="programacion">Seminario de Programación</label>
+                            <input class="programacion" name="programacion" id="programacion" type="checkbox" value="1"  />
+                        </div>
+                        <div class="col-6">
+                            <label for="programacion">Análisis Matemático II</label>
+                         <input class="programacion" name="programacion" id="programacion" type="checkbox" value="1"  />
+                        </div>
+                    </div>
+                    <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="programacion">
+                        <div class="col-6">
+                            <label for="programacion">Programación Orientada a Objetos</label>
+                            <input class="programacion" name="programacion" id="programacion" type="checkbox" value="1"  />
                         </div>
                        
                     </div>                       
                                       
                     <h5>Tercer Año</h5>
-                    <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="TrabajaSI">
+                    <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="programacion">
                         <div class="col-6">
-                            <label for="MayorTitulo">Teleinformática</label>
-                            <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
+                            <label for="programacion">Teleinformática</label>
+                            <input class="programacion" name="programacion" id="programacion" type="checkbox" value="1"  />
                         </div>
                         <div class="col-6">
-                            <label for="MayorTitulo">Investigación Operativa</label>
-                         <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
+                            <label for="programacion">Investigación Operativa</label>
+                         <input class="programacion" name="programacion" id="programacion" type="checkbox" value="1"  />
                         </div>
                    
                     </div>  
-                <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="TrabajaSI">
+                <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="programacion">
                     <div class="col-6">
-                        <label for="MayorTitulo">Práctica Profesional</label>
-                        <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
+                        <label for="programacion">Práctica Profesional</label>
+                        <input class="programacion" name="programacion" id="programacion" type="checkbox" value="1"  />
                     </div>
                     <div class="col-6">
-                        <label for="MayorTitulo">Economía Empresarial</label>
-                     <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
-                    </div>
-                </div>
-                <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="TrabajaSI">
-                    <div class="col-6">
-                        <label for="MayorTitulo">Diseño e Implementación de Sistemas</label>
-                        <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
-                    </div>
-                    <div class="col-6">
-                        <label for="MayorTitulo">Gestión de Base de Datos</label>
-                     <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
+                        <label for="programacion">Economía Empresarial</label>
+                     <input class="programacion" name="programacion" id="programacion" type="checkbox" value="1"  />
                     </div>
                 </div>
-                <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="TrabajaSI">
+                <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="programacion">
+                    <div class="col-6">
+                        <label for="programacion">Diseño e Implementación de Sistemas</label>
+                        <input class="programacion" name="programacion" id="programacion" type="checkbox" value="1"  />
+                    </div>
+                    <div class="col-6">
+                        <label for="programacion">Gestión de Base de Datos</label>
+                     <input class="programacion" name="programacion" id="programacion" type="checkbox" value="1"  />
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-8 justify-content-center mb-2 form-section" id="programacion">
                     <div class="col-8">
-                        <label for="MayorTitulo">EDI - Programación de Sitios Web</label>
-                        <input class="NivelPadre" name="NivelPadre" id="NivelPadre" type="radio" value="1"  />
+                        <label for="programacion">EDI - Programación de Sitios Web</label>
+                        <input class="programacion" name="programacion" id="programacion" type="checkbox" value="1"  />
                     </div> 
                 </div>
             </div>                 

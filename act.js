@@ -17,23 +17,23 @@ function comprobarClave() {
         
     )   
 
-  //   function consulta() {
-  //     enviar= document.getElementById('botonEnviar');
+    function consulta() {
+      enviar= document.getElementById('botonEnviar');
       
   
-  // }
-  //   const BOTON_ENVIAR=document.getElementById("botonEnviar");
+  }
+    const BOTON_ENVIAR=document.getElementById("botonEnviar");
 
-  //   BOTON_ENVIAR.addEventListener("click",() => {
-  //   {
-  //      if("")
-  //      {
+    BOTON_ENVIAR.addEventListener("click",() => {
+    {
+       if("")
+       {
 
-  //       alert("Recibimos tu consulta, gracias!");
-  //     } 
-  //   }
-  // }
-  //   )   
+        alert("Recibimos tu consulta, gracias!");
+      } 
+    }
+  }
+    )   
 
 
   // ver
@@ -43,18 +43,18 @@ function comprobarClave() {
 
 }
  
-    const BOTON_Guardar=document.getElementById("btnGuardar");
+    // const BOTON_Guardar=document.getElementById("btnGuardar");
 
-    BOTON_Guardar.addEventListener("click",() => {
+    // BOTON_Guardar.addEventListener("click",() => {
     
-          if (clave1.value == clave2.value) {
-            alert("Se ha registrado correctamente");
-          } else  {
-           alert("La contraseña no coincide");
-          }
-          }
+    //       if (clave1.value == clave2.value) {
+    //         alert("Se ha registrado correctamente");
+    //       } else  {
+    //        alert("La contraseña no coincide");
+    //       }
+    //       }
         
-    ) 
+    // ) 
   //  ver
 
  
