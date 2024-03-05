@@ -11341,3 +11341,12 @@ nav
 #btnMasinfo:hover
 {background-color: #5c544e;
 }
+.seleccionCarrerra h4 a
+ {
+   
+   color: #097d94;
+ }
+ .seleccionCarrerra h4 a:hover 
+ {
+    color: #5c544e;
+ }
