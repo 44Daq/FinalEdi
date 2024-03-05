@@ -43,18 +43,18 @@ function comprobarClave() {
 
 }
  
-    // const BOTON_Guardar=document.getElementById("btnGuardar");
+    const BOTON_Guardar=document.getElementById("btnGuardar");
 
-    // BOTON_Guardar.addEventListener("click",() => {
+    BOTON_Guardar.addEventListener("click",() => {
     
-    //       if (clave1.value == clave2.value) {
-    //         alert("Se ha registrado correctamente");
-    //       } else  {
-    //        alert("La contraseña no coincide");
-    //       }
-    //       }
+          if (clave1.value == clave2.value) {
+            alert("Se ha registrado correctamente");
+          } else  {
+           alert("La contraseña no coincide");
+          }
+          }
         
-    // ) 
+    ) 
   //  ver
 
  
