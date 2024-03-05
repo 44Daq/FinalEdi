@@ -14,10 +14,11 @@
 }
 .sec 
 {
+   /* +++++++ */
     position: relative;
-    width: 100%;
+    width: 100vh;
     min-height: 100vh;
-    padding: 100px;
+    padding: 100vh;
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
@@ -29,7 +30,8 @@ header
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vh;
+    /* ++++++++ */
     padding: 20px 100px;
     display: flex;
     justify-content: space-between;
